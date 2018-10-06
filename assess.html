@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CyberStart Survival Guide</title>
+</head>
+
+<body bgcolor='#0f1723'>
+    <p style = 'text-align: center;'>
+        <img src="logo.png">
+    </p>
+    <h1 style='text-align: center; '>Survival Guide</h1>
+    <div id='menu'>
+    <ul>
+       <li><a href='#'>Assess</a></li>
+       <li><a href='#'>Game</a></li>
+       <li><a href='#'>Essentials</a></li>
+       <li><a href='#'>Elite</a></li>
+       <li><a href='#'>More</a></li>
+    </ul>
+    </div>
+    
+    <br>
+    
+</body>
+
+</html>
+<style>
+   @import url('https://fonts.googleapis.com/css?family=VT323');
+   @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+    #menu,
+#menu ul,
+#menu ul li,
+#menu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#menu:after,
+#menu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu {
+  width: auto;
+  border-bottom: 3px solid #ff715b;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1;
+}
+#menu > ul > li {
+  float: left;
+}
+#menu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#menu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#menu.align-right > ul > li {
+  float: right;
+}
+#menu.align-right > ul > li > a {
+  margin-right: 0;
+  margin-left: -4px;
+}
+#menu > ul > li > a {
+  z-index: 2;
+  padding: 18px 25px 12px 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin-right: -4px;
+}
+#menu > ul > li.active > a,
+#menu > ul > li:hover > a,
+#menu > ul > li > a:hover {
+  color: #ffffff;
+}
+#menu > ul > li > a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  content: "";
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  -webkit-transform: perspective(5px) rotateX(2deg);
+  -webkit-transform-origin: bottom;
+  -moz-transform: perspective(5px) rotateX(2deg);
+  -moz-transform-origin: bottom;
+  transform: perspective(5px) rotateX(2deg);
+  transform-origin: bottom;
+}
+#menu > ul > li.active > a:after,
+#menu > ul > li:hover > a:after,
+#menu > ul > li > a:hover:after {
+  background: #ff715b;
+}
+    
+    h1{
+        font-family: 'VT323'; 
+        color: white;
+    }
+    h2{
+        font-family: 'VT323'; 
+        color: white;
+    }
+    
+    li{
+  font-family: 'Roboto Mono', monospace;
+        color: white;
+    }
+</style>
