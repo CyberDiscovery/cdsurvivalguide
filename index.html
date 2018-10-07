@@ -1,150 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>CyberStart Survival Guide</title>
+  <title>CyberStart Survival Guide</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-<body bgcolor='#0f1723'>
-    <p style = 'text-align: center;'>
-        <img src="logo.png">
+<body>
+  <div id="header">
+    <p>
+      <img src="logo.png">
     </p>
-    <h1 style='text-align: center; '>Survival Guide</h1>
-    <div id='menu'>
+    <h1>Survival Guide</h1>
+  </div>  
+  <div id='menu'>
     <ul>
-      <li><a href='index.html'>Home</a></li>
-      <li><a href='assess.html'>Assess</a></li>
-      <li><a href='game.html'>Game</a></li>
-      <li><a href='essentials.html'>Essentials</a></li>
-      <li><a href='elite.html'>Elite</a></li>
-      <li><a href='more.html'>More</a></li>
+       <li><a href='index.html'>Home</a></li>
+       <li><a href='assess.html'>Assess</a></li>
+       <li><a href='game.html'>Game</a></li>
+       <li><a href='essentials.html'>Essentials</a></li>
+       <li><a href='elite.html'>Elite</a></li>
+       <li><a href='more.html'>More</a></li>
     </ul>
-    </div>
-    
-    <br>
-    
+  </div>  
+  <br>
+  
+  <div id="main">
     <h1>Welcome!</h1>
-    <h3 style="font-family: 'Roboto Mono', monospace; color: white;">This is an unofficial website where we host tips and tricks for those who are attempting the Cyber Discovery programme. All these articles are written by past participants, most of whom reached the elite stage themselves. <br><br> However, DO NOT mistake this for a walkthrough website - here, we merely disclose tips that can help you, or hints that will give you a boost in progressing to later stages of the program. Any writeups posted here are permitted or already disclosed by the official Cyber Discovery Staff, or the saviour himself, James Lyne.</h3>
+    <h3>This is an unofficial website where we host tips and tricks for those who are attempting the Cyber Discovery programme. All these articles are written by past participants, most of whom reached the elite stage themselves. <br><br> However, DO NOT mistake this for a walkthrough website - here, we merely disclose tips that can help you, or hints that will give you a boost in progressing to later stages of the program. Any writeups posted here are permitted or already disclosed by the official Cyber Discovery Staff, or the saviour himself, James Lyne.</h3>
     
     <h1>Who Writes our Articles?</h1>
-    <h3 style="font-family: 'Roboto Mono', monospace; color: white;">Our writers all members of the Cyber Discovery Discord, and are active members of the community. Below are some credits to those who have explicitly contributed to the design/development of the website itself: </h3>
+    <h3>Our writers all members of the Cyber Discovery Discord, and are active members of the community. Below are some credits to those who have explicitly contributed to the design/development of the website itself: </h3>
     <ul>
         <li><u>lightspeedana</u> - The site's creator and host.</li>
         <li><u>BenTechy66</u> - An invaluable, priceless contributor who has developed the site since its conception.</li>
         <li><u>Sh3llcod3</u> - Providing front-end assistance and moral support - not to mention developing from the beginning.</li>
     </ul>
-    <h3 style="font-family: 'Roboto Mono', monospace; color: white;">Want to find out more about our writers? Head to the MORE tab.</h3>
+    <h3>Want to find out more about our writers? Head to the MORE tab.</h3>
+  </div>
 
 </body>
 
 </html>
-<style>
-   @import url('https://fonts.googleapis.com/css?family=VT323');
-   @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
-    #menu,
-#menu ul,
-#menu ul li,
-#menu ul li a {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
-  line-height: 1;
-  display: block;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-#menu:after,
-#menu > ul:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-#menu {
-  width: auto;
-  border-bottom: 3px solid #ff715b;
-  font-family: 'Roboto Mono', monospace;
-  line-height: 1;
-}
-#menu > ul > li {
-  float: left;
-}
-#menu.align-center > ul {
-  font-size: 0;
-  text-align: center;
-}
-#menu.align-center > ul > li {
-  display: inline-block;
-  float: none;
-}
-#menu.align-right > ul > li {
-  float: right;
-}
-#menu.align-right > ul > li > a {
-  margin-right: 0;
-  margin-left: -4px;
-}
-#menu > ul > li > a {
-  z-index: 2;
-  padding: 18px 25px 12px 25px;
-  font-size: 15px;
-  font-weight: 400;
-  text-decoration: none;
-  color: #ffffff;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  transition: all .2s ease;
-  margin-right: -4px;
-}
-#menu > ul > li.active > a,
-#menu > ul > li:hover > a,
-#menu > ul > li > a:hover {
-  color: #ffffff;
-}
-#menu > ul > li > a:after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
-  width: 100%;
-  height: 120%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  content: "";
-  -webkit-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  transition: all .2s ease;
-  -webkit-transform: perspective(5px) rotateX(2deg);
-  -webkit-transform-origin: bottom;
-  -moz-transform: perspective(5px) rotateX(2deg);
-  -moz-transform-origin: bottom;
-  transform: perspective(5px) rotateX(2deg);
-  transform-origin: bottom;
-}
-#menu > ul > li.active > a:after,
-#menu > ul > li:hover > a:after,
-#menu > ul > li > a:hover:after {
-  background: #ff715b;
-}
-    
-    h1{
-        font-family: 'VT323'; 
-        color: white;
-    }
-    h2{
-        font-family: 'VT323'; 
-        color: white;
-    }
-    
-    li{
-  font-family: 'Roboto Mono', monospace;
-        color: white;
-    }
-</style>
