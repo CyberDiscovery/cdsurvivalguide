@@ -37,6 +37,9 @@ body {
 .assess-hints{
   padding-left: 20%;
 }
+.placeholder{
+  text-align: center;
+}
 #header {
   text-align: center;
 }
