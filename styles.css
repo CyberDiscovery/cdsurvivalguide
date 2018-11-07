@@ -3,6 +3,8 @@
 
 body {
   background-color: #0f1723;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
 }
 .linebreak{
   border-bottom: 3px solid var(--color);
@@ -39,10 +41,9 @@ body {
 }
 .placeholder{
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
-  color: #ffffff;
   font-size: 18px;
 }
+
 #header {
   text-align: center;
 }
