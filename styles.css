@@ -33,7 +33,7 @@ body {
   color: #000000;
 }
 .assess-hints{
-  text-align: center;
+  border-left: 20%;
 }
 #header {
   text-align: center;
