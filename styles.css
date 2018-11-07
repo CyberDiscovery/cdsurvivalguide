@@ -3,8 +3,12 @@
 
 body {
   background-color: #0f1723;
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
 }
-
+.linebreak{
+  border-bottom: 3px solid var(--color);
+}
 .home{
   --color:#705a8f;
 }
@@ -27,6 +31,17 @@ body {
 
 .more{
   --color:#705a8f;
+}
+.spoiler{
+  background-color: #000000;
+  color: #000000;
+}
+.assess-hints{
+  padding-left: 20%;
+}
+.placeholder{
+  text-align: center;
+  font-size: 18px;
 }
 
 #header {
@@ -139,12 +154,12 @@ body {
 }
 
 h1{
-  font-family: 'VT323'; 
+  font-family: 'Roboto Mono', monospace; 
   color: white;
 }
 
 h2{
-  font-family: 'VT323'; 
+  font-family: 'Roboto Mono', monospace; 
   color: white;
 }
 
