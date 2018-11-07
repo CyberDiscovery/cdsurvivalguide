@@ -28,7 +28,10 @@ body {
 .more{
   --color:#705a8f;
 }
-
+.spoiler{
+  background-color: #000000;
+  color: #000000;
+}
 #header {
   text-align: center;
 }
