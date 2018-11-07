@@ -28,7 +28,13 @@ body {
 .more{
   --color:#705a8f;
 }
-
+.spoiler{
+  background-color: #000000;
+  color: #000000;
+}
+.assess-hints{
+  padding-left: 20%;
+}
 #header {
   text-align: center;
 }
