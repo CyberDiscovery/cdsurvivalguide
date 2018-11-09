@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: Assess
+  link: /assess.html
+- name: Game
+  link: /game.html
+- name: Essentials
+  link: /essentials.html
+- name: Elite
+  link: /elite.html
+- name: More
+  link: /more.html
