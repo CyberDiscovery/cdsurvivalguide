@@ -8,7 +8,8 @@ color: 705a8f
 ### However, DO NOT mistake this for a walkthrough website - here, we merely disclose tips that can help you, or hints that will give you a boost in progressing to later stages of the program. Any writeups posted here are permitted or already disclosed by the official Cyber Discovery Staff, or the saviour himself, James Lyne.
 
 # Who Writes our Articles?
-### Our writers are all members of the Cyber Discovery Discord, and are active members of the community. Below are some credits to those who have explicitly contributed to the design/development of the website itself:
+### Our writers are all members of the Cyber Discovery Discord, and are active members of the community.
+### Below are some credits to those who have explicitly contributed to the design/development of the website itself:
 
 * _lightspeedana_ - The site's creator and host.
 * _BenTechy66_ - An invaluable, priceless contributor who has developed the site since its conception.
