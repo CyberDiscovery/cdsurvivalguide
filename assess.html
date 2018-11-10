@@ -18,79 +18,14 @@ color: d38e00
     </a>
   </div>
   <div class="assess-hints">
+	{% for challenge in site.data.assess_hints %}
     <li>
       <a>
-        Challenge 1: 
+        Challenge {{ challenge.number }}: 
       </a>
       <a class="spoiler">
-        Try using the search to find what you're looking for.
+        {{ challenge.hint }}
       </a>
     </li>
     <br>
-    <li>
-      <a>
-        Challenge 2: 
-      </a>
-      <a class="spoiler">
-        What has been done to the text?
-      </a>
-    </li>
-    <br>
-    <li>
-      <a>
-        Challenge 3: 
-      </a>
-      <a class="spoiler">
-        Perhaps there's something in the HTML!
-      </a>
-    </li>
-    <br>
-    <li>
-      <a>
-        Challenge 4: 
-      </a>
-      <a class="spoiler">
-        Read the source carefully, something is not quite right...
-      </a>
-    </li>
-    <br>
-    <li>
-      <a>
-        Challenge 5: 
-      </a>
-      <a class="spoiler">
-        What’s in the source you could use to your advantage?
-      </a>
-    </li>
-    <br>
-    <li>
-      <a>
-        Challenge 6: 
-      </a>
-      <a class="spoiler">
-        Read the functions and comments carefully, what do you need to achieve?
-      </a>
-    </li>
-    <br>
-    <li>
-      <a>
-        Challenge 7: 
-      </a>
-      <a class="spoiler">
-        Think about the format it has used so far, what does it want back?
-      </a>
-    </li>
-    <br>
-    <li>
-      <a>
-        Challenge 8: 
-      </a>
-      <a class="spoiler">
-        Take a good look at the Javascript code.
-      </a>
-    </li>
-    <br>
-  </div> 
-</body>
-
-</html>
+	{% endfor %}

@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>CyberStart Survival Guide</title>
-        <meta>
-        <style type="text/css">
-body{
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
+    <title>CyberStart Survival Guide</title>
+    <meta content="An unofficial guide with tips and tricks for the Cyber Discovery programme."
+    name="description">
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/site.webmanifest" rel="manifest">
+    <link href="/safari-pinned-tab.svg" rel="mask-icon">
+    <meta content="#0d2331" name="msapplication-TileColor">
+    <meta content="#ffffff" name="theme-color">
+    <style>
+    body{
     --color: #{{ page.color }};
-}
-        </style>
-        <link rel="stylesheet" href="/assets/css/styles.css">
-    </head>
-    <body>
-        <div id="header">
-            <p>
-                <img src="/assets/images/logo.png">
-            </p>
-            <h1>Survival Guide</h1>
-        </div> 
-        {% include navigation.html %}
-        <br>
-        {{ content }}
-    </body>
+    }
+    </style>
+    <link href="/assets/css/normalize.css" rel="stylesheet">
+    <link href="/assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <p><img src="/assets/images/logo.png"></p>
+        <h1>Survival Guide</h1>
+    </div>{% include navigation.html %}<br>
+    {{ content }}
+</body>
 </html>

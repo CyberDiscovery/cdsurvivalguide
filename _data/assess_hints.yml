@@ -1,0 +1,16 @@
+- number: 1
+  hint:  Try using the search to find what you're looking for.
+- number: 2
+  hint: What has been done to the text?
+- number: 3
+  hint: Perhaps there's something in the HTML!
+- number: 4
+  hint: "Read the source carefully: something is not quite right..."
+- number: 5
+  hint: What’s in the source that you could use to your advantage?
+- number: 6
+  hint: Read the functions and comments carefully, what do you need to achieve?
+- number: 7
+  hint: Think about the format it has used; what does it want back?
+- number: 8
+  hint: Take a good look at the Javascript code.

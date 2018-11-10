@@ -11,11 +11,9 @@ color: 705a8f
 ### Our writers are all members of the Cyber Discovery Discord, and are active members of the community.
 ### Below are some credits to those who have explicitly contributed to the design/development of the website itself:
 
-* _lightspeedana_ - The site's creator and host.
-* _BenTechy66_ - An invaluable, priceless contributor who has developed the site since its conception.
-* _Sh3llcod3_ - Providing front-end assistance and moral support - not to mention developing from the beginning.
-* _Dwouca_ - Styling and using her experience to steer the site in the best direction possible.
-* _eohomegrownapps_ - With his vast knowledge and development experience, he provides all the features that make the site what it is.
+{% for contributor in site.data.contributors %}
+* [{{ contributor.name }}](https://github.com/{{ contributor.name }}) - {{ contributor.info }}
+{% endfor %}
 
 ### Want to find out more about our writers? Head to the MORE tab.
 
