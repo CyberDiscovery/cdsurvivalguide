@@ -1,6 +1,4 @@
 ---
-layout: default
-color: 705a8f
 ---
 
 # Welcome!
