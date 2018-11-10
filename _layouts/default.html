@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
+        <title>CyberStart Survival Guide</title>
+        <meta content="An unofficial guide with tips and tricks for the Cyber Discovery programme."
+              name="description">
+        <link rel="preload" href="styles.css" as="style" type="text/css" crossorigin="anonymous">
+        <link rel="preload" href="normalize.css" as="style" type="text/css" crossorigin="anonymous">
+        <link href="/apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+        <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+        <link href="/site.webmanifest" rel="manifest">
+        <link href="/safari-pinned-tab.svg" rel="mask-icon">
+        <meta content="#0d2331" name="msapplication-TileColor">
+        <meta content="#ffffff" name="theme-color">
+        <style>
+body{
+    --color: #{{ page.color }};
+}
+        </style>
+        <link href="/assets/css/normalize.css" rel="stylesheet" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous">
+        <link href="/assets/css/styles.css" rel="stylesheet" integrity="sha512-0Hog2JdRt6VlZnn3IVamSDxCrXX5z4oDsILpbEGgnXMBiFf4VCwVt8a7p98FD69VrtqXAtDiZCK0byAWce5oGA==" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="header">
+            <p><img src="/assets/images/logo.png"></p>
+            <h1>Survival Guide</h1>
+        </div>{% include navigation.html %}<br>
+        {{ content }}
+    </body>
+</html>

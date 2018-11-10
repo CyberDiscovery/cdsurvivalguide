@@ -1,0 +1,11 @@
+<div id='menu'>
+    <ul>
+        {% for item in site.data.navigation %}
+        <li class="{{ item.name | downcase }}">
+            <a  {% if page.url == item.link %}class="hovered"{% endif %} href="{{item.link}}" >
+                {{ item.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div> 

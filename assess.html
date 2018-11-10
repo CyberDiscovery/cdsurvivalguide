@@ -1,36 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>CyberStart Survival Guide</title>
-  <style type="text/css">body{--color:#d38e00;}</style>
-  <link rel="stylesheet" href="styles.css">
-</head>
+---
+layout: default
+color: d38e00
+---
 
-<body>
-  <div id="header">
-    <p>
-      <img src="logo.png">
-    </p>
-    <h1>Survival Guide</h1>
-  </div>  
-  <div id='menu'>
-    <ul>
-       <li class="home"><a href='index.html'>Home</a></li>
-       <li class="assess"><a href='assess.html' class="hovered">Assess</a></li>
-       <li class="game"><a href='game.html'>Game</a></li>
-       <li class="essentials"><a href='essentials.html'>Essentials</a></li>
-       <li class="elite"><a href='elite.html'>Elite</a></li>
-       <li class="more"><a href='more.html'>More</a></li>
-    </ul>
-  </div>  
-  <br>
-  
-  <div id="main">
-    <h1>Assess</h1>
-    <h3>tl;dr use inspect element super powers. <br></h3>
-    <h3>Want our writers to actually write quality content? <b>nou.</b> Complain <a href="https://github.com/CyberDiscovery/cdsurvivalguide">here.</a></h3>
+<div class="Announcement">
+    <a style="text-align: center">
+      <h1>
+        Use Firefox! Chrome is laggy.
+      </h1>
+      <h1>
+          If there is no alternative, try disabling the animations on the site.
+      </h1>
+      <div class="linebreak"></div>
+      <h3>
+        Hints: (Highlight to un-hide)
+      </h3>
+    </a>
   </div>
-
-</body>
-
-</html>
+  <div class="assess-hints">
+	{% for challenge in site.data.assess_hints %}
+    <li>
+      <a>
+        Challenge {{ challenge.number }}: 
+      </a>
+      <a class="spoiler">
+        {{ challenge.hint }}
+      </a>
+    </li>
+    <br>
+	{% endfor %}
