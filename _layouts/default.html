@@ -21,14 +21,16 @@ body{
     --color: #{{ page.color }};
 }
         </style>
-        <link href="/assets/css/normalize.css" rel="stylesheet" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous">
-        <link href="/assets/css/styles.css" rel="stylesheet" integrity="sha512-0Hog2JdRt6VlZnn3IVamSDxCrXX5z4oDsILpbEGgnXMBiFf4VCwVt8a7p98FD69VrtqXAtDiZCK0byAWce5oGA==" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=VT323|Roboto+Mono" rel="stylesheet">
+        <link href="/assets/css/styles.css" rel="stylesheet">
     </head>
     <body>
         <div id="header">
             <p><img src="/assets/images/logo.png"></p>
             <h1>Survival Guide</h1>
         </div>{% include navigation.html %}<br>
-        {{ content }}
+        <div id="content">
+            {{ content }}
+        </div>
     </body>
 </html>

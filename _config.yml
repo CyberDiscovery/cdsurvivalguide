@@ -1,0 +1,9 @@
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      color: "705a8f"
