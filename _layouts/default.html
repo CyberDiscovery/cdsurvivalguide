@@ -21,7 +21,7 @@ body{
     --color: #{{ page.color }};
 }
         </style>
-        <link href="/assets/css/normalize.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=VT323|Roboto+Mono" rel="stylesheet">
         <link href="/assets/css/styles.css" rel="stylesheet">
     </head>
     <body>
@@ -29,6 +29,8 @@ body{
             <p><img src="/assets/images/logo.png"></p>
             <h1>Survival Guide</h1>
         </div>{% include navigation.html %}<br>
-        {{ content }}
+        <div id="content">
+            {{ content }}
+        </div>
     </body>
 </html>

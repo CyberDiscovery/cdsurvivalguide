@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=VT323");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 body {
   background-color: #0f1723;
   font-family: "Roboto Mono", monospace;
@@ -187,4 +185,9 @@ a.hovered:after {
   transform: perspective(5px) rotateX(2deg);
   transform-origin: bottom;
   background: var(--color);
+}
+
+#content {
+    width: 95%;
+    margin: auto;
 }
