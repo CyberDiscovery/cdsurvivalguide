@@ -7,3 +7,6 @@ defaults:
     values:
       layout: "default"
       color: "705a8f"
+
+kramdown:
+  auto_ids: false
