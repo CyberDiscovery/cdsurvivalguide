@@ -1,16 +1,16 @@
 - number: 1
-  hint:  Try using the search to find what you're looking for.
+  hint:  Mirror | rorriM
 - number: 2
-  hint: What has been done to the text?
+  hint: Have a dig through the source.
 - number: 3
-  hint: Perhaps there's something in the HTML!
+  hint: Look through the source. There might be a code...
 - number: 4
-  hint: "Read the source carefully: something is not quite right..."
+  hint: People often use passwords related to things that matter to them.
 - number: 5
-  hint: What’s in the source that you could use to your advantage?
+  hint: Drop the base. (no, seriously) 
 - number: 6
-  hint: Read the functions and comments carefully, what do you need to achieve?
+  hint: Julius Caesar. 
 - number: 7
-  hint: Think about the format it has used; what does it want back?
+  hint: Dig through the JavaScript. Remember, you have a console. Use it.
 - number: 8
-  hint: Take a good look at the Javascript code.
+  hint: If only there was a way to copy that link's data to somewhere you can click...
