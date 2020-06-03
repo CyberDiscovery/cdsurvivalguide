@@ -1,16 +1,16 @@
 - number: 1
-  hint:  Mirror | rorriM
+  hint:  Look at the title.
 - number: 2
-  hint: Have a dig through the source.
+  hint: Is there anything you can click?
 - number: 3
-  hint: Look through the source. There might be a code...
+  hint: What tool does the title refer to?
 - number: 4
-  hint: People often use passwords related to things that matter to them.
+  hint: Hardcoding passwords is bad.
 - number: 5
-  hint: Drop the base. (no, seriously) 
+  hint: Close the gap.
 - number: 6
-  hint: Julius Caesar. 
+  hint: Pay attention to the URL. 
 - number: 7
-  hint: Dig through the JavaScript. Remember, you have a console. Use it.
+  hint: Think about common ciphers.
 - number: 8
-  hint: If only there was a way to copy that link's data to somewhere you can click...
+  hint: The flag is in the flag.
